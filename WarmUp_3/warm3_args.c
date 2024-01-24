@@ -20,20 +20,3 @@ int main(){
     printf("Sum is: %i\n", sum);
     printf("Avg is: %1f\n", average);
 }
-/*
-*/
-/*
-public class ArrayOperations {
-    public static void main(String[] args) {
-        int[] numbers = {1, 2, 3, 4, 5};
-        int sum = 0;
-        for (int number : numbers) {
-            sum += number;
-        }
-        double average = sum / (double) numbers.length;
-
-        System.out.println("Sum: " + sum);
-        System.out.println("Average: " + average);
-    }
-}
-*/
