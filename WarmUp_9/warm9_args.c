@@ -9,8 +9,12 @@ const char* filename = "example.txt";
 //create a file
 FILE* fp = fopen(filename, "w+");
 //if success, else error and return 1
-if(!fp){printf("No file");}
+//
+
+if(!fp){
+    perror("No file");
     return 1;
+}
 
    //write data into the file fp
 fputs("Hello, world!\n", fp);
