@@ -1,1 +1,2 @@
 For warmup5, I used some AI assistance; I wanted to know how to approach making matricies in C, as I was not at all familiar with this - in java, I breifly done code with matrices, but not enough. Therefore, I used GPT4 to help me with teaching the syntax and structure of matrices.
+For warmup6, I used assistance to clarify how to print the statement. I ran into an error because I forgot the C language must initialize a % operator before printing out integers or other symbols, and it helped me find the problem.  
